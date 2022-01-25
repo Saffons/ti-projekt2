@@ -1,0 +1,103 @@
+html {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Joos_de_Momper_II_-_Winter_landscape.jpeg/1280px-Joos_de_Momper_II_-_Winter_landscape.jpeg);
+	background-size: 100% auto;
+	background-position: top center;
+    background-attachment: fixed;
+    height: 100%;
+    }
+body {
+    height: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: 'Annie Use Your Telescope';
+}
+
+header {
+    font-size: 22px;
+    background: LightBlue;
+    margin-right: 70%;
+    padding: 10px;
+    border-radius: 6px;
+    border: solid Black 2px;
+}
+
+nav {
+    margin: 10px;
+}
+
+button {
+	background: rgb(235, 232, 196);
+	color: Black;
+    padding: 5px;
+    border: solid Black 2px;
+    border-radius: 6px;
+}
+button:hover {
+  border-style: dashed;
+}
+
+form {
+    padding: 10px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+input[type=button] {
+    border: 1px solid black;
+}
+
+select {
+    background: transparent;
+    border: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+canvas {
+    background-color: darkgray;
+    margin: 10px;
+    border-radius: 6px;
+}
+    
+#wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+#push {
+    height: 55px;
+}
+
+footer {
+        height: 50px;
+        text-align: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        background: LightBlue;
+        border-radius: 6px;
+        border: solid Black 2px;
+    }
+
+#data, #result {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+}
+
+#data {
+    margin-bottom: 5px;
+}
+
+.table {
+    padding: 10px;
+}
