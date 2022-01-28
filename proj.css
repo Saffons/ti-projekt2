@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+}
+    
+h1 {
+    font-size: 42px;
+}    
+
+body {
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+    background: linear-gradient( 134.6deg,  rgba(201,37,107, 0.9) 15.4%, rgba(116,16,124, 0.9) 74.7% );    
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 6%;
+}
+
+header {
+    height: 10%;
+    font-size: 26px;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+button {
+    min-width: 12%;
+	background: grey;
+    font-size: 24px;
+    color: Black;
+    padding: 5px 5px;
+    border: solid black 2px;
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: white;
+}
+
+form {
+    padding: 10px;
+    font-size: 20px;
+}
+
+select {
+    font-size: 20px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    font-size: 20px;
+}
+
+input[type=button], input[type=submit]  {
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+select {
+    background: transparent;
+    border: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+canvas {
+    background-color: rgba(255, 134, 235, 0.3);
+    margin: auto;
+    border-radius: 8px;
+}
+    
+#wrapper {
+    min-height: 100%;
+}
+
+#push {
+    height: 5%;
+}
+
+footer {
+    position: absolute;
+    height: 6%;
+    bottom: 0;
+    margin-left: 40%;
+    margin-right: 40%;
+    min-width: 20%;
+    font-size: 22px;
+    background: grey;
+    border-radius: 8px;
+    border: solid Black 2px;
+}
+
+#data, #result {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#data {
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.table {
+    padding: 20px;
+}
+
+table {
+    margin: 0 auto;
+}
