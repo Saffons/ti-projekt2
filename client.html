@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Dane pogodowe</title>
+      <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+      <link type="text/css" href="proj.css" rel="stylesheet">
+      <script src="rest.js" type="text/javascript"></script>
+      <script src="http://www.myersdaily.org/joseph/javascript/md5.js"></script> 
+   </head>
+   <body>
+      <div id="wrapper">
+     <header><big>Dane pogodowe</big></header>
+      <nav>
+          <button id="regB" onclick="_reg_form()">Rejestracja</button>
+          <button id="logB" onclick="_log_form()">Logowanie</button>
+          <button id="logOutB" onclick="_log_out()">Wylogowanie</button>
+          <button id="insOffB" onclick="_ins_form(false)">Wprowadź dane offline</button>
+          <button id="insOnB" onclick="_ins_form(true)">Wprowadź dane online</button>
+          <button id="selOffB" onclick="_listOffline()">Przegląd danych offline</button>
+          <button id="selOnB" onclick="_list()">Przegląd danych online</button>
+          <button id="analizeB" onclick="_analize()">Analiza danych</button>
+      </nav>
+     <div id="data"></div>
+     <div id="result"></div>
+     <div id="push"></div>
+   </div>
+     <footer>
+       TI 2020/21 Olga Kubiszyn <br/>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Joos_de_Momper_II_-_Winter_landscape.jpeg/1280px-Joos_de_Momper_II_-_Winter_landscape.jpeg">Obraz w tle</a>
+      </footer> 
+    </body>  
+</html>
